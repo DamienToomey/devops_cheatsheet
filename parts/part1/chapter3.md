@@ -10,6 +10,6 @@ git log --all --decorate --oneline --graph
 
 #### See git graph on Github
 
-- Go to https://github.com > git_cheatsheet > Insights > Network
-- Or go to https://github.com/DamienToomey/git_cheatsheet/network
+- Go to https://github.com > devops_cheatsheet > Insights > Network
+- Or go to https://github.com/DamienToomey/devops_cheatsheet/network
 - Drag the graph from left to right or from right to left

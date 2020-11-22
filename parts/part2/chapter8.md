@@ -3,7 +3,7 @@
 Let's use a custom Dockerfile inside docker-compose.yml (i.e. use `build` instead of `image`) for the service named ghost.
 
 ```
-cd git_cheatsheet
+cd devops_cheatsheet
 git clone https://github.com/OpenClassrooms-Student-Center/ghost-cms
 cd ghost-cms # already contains a Dockerfile and .dockerignore
 touch docker-compose.yml

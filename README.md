@@ -1,6 +1,6 @@
-# git_cheatsheet
+# devops_cheatsheet
 
-The name of this repository is `git_cheatsheet`.
+The name of this repository is `devops_cheatsheet`.
 
 It has the following tree structure:
 

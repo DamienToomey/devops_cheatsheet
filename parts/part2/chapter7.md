@@ -5,7 +5,7 @@
 #### Create docker-compose.yml (at project root)
 
 ```
-cd git_cheatsheet
+cd devops_cheatsheet
 touch docker-compose.yml
 gedit docker-compose.yml
 ```

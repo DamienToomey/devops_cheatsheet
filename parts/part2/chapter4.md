@@ -98,7 +98,7 @@ Reference: https://riptutorial.com/fr/docker/example/10772/helloworld-dockerfile
 #### Create Dockerfile (at project root)
 
 ```
-cd git_cheatsheet
+cd devops_cheatsheet
 touch Dockerfile
 gedit Dockerfile
 ```

@@ -35,7 +35,7 @@ git config --global core.editor gedit
 #### Way1
 
 ```
-git clone https://github.com/DamienToomey/git_cheatsheet.git
+git clone https://github.com/DamienToomey/devops_cheatsheet.git
 ```
 
 #### Way2
@@ -44,7 +44,7 @@ git clone https://github.com/DamienToomey/git_cheatsheet.git
 mkdir my_repository
 cd my_repository
 git init
-git remote add origin https://github.com/DamienToomey/git_cheatsheet.git
+git remote add origin https://github.com/DamienToomey/devops_cheatsheet.git
 git pull origin main # main is equivalent to master
 ```
 

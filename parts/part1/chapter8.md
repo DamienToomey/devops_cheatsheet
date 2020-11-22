@@ -24,10 +24,10 @@ The main difference between `git submodule` and `git subtree` is that after addi
 
 #### Submodule example
 
-This following command adds the repository `git_cheatsheet`, as submodule, in a folder called `my_submodule`.
+This following command adds the repository `devops_cheatsheet`, as submodule, in a folder called `my_submodule`.
 
 ```
-git submodule add https://github.com/DamienToomey/git_cheatsheet.git my_submodule
+git submodule add https://github.com/DamienToomey/devops_cheatsheet.git my_submodule
 ```
 
 This will create the file `.gitmodules` that contains the description of submodules used in your project.
@@ -43,7 +43,7 @@ git submodule update
 - Add a subtree to your repository
 
 ```
-git remote add my_subtree https://github.com/DamienToomey/git_cheatsheet.git
+git remote add my_subtree https://github.com/DamienToomey/devops_cheatsheet.git
 git subtree add --prefix=my_subtree/ my_subtree master --squash
 ```
 

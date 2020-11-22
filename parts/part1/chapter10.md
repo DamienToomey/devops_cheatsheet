@@ -54,7 +54,7 @@ git flow init # creates branches for us on top of initializing the repository
 ```
 
 ```
-git remote add origin https://github.com/DamienToomey/git_cheatsheet.git
+git remote add origin https://github.com/DamienToomey/devops_cheatsheet.git
 git pull origin main # main is equivalent to master
 ```
 

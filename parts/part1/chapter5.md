@@ -41,9 +41,9 @@ Display commit history for each line of a specified file. The author of the modi
 - Output example:
 
 ```
-7a01111c (DamienToomey      2020-11-08 17:42:51 +0100  1) # git_cheatsheet
+7a01111c (DamienToomey      2020-11-08 17:42:51 +0100  1) # devops_cheatsheet
 7a01111c (DamienToomey      2020-11-08 17:42:51 +0100  2) 
-ce5a897b (DamienToomey      2020-11-08 17:46:52 +0100  3) The name of this repository is `git_cheatsheet`.
+ce5a897b (DamienToomey      2020-11-08 17:46:52 +0100  3) The name of this repository is `devops_cheatsheet`.
 ```
 
 #### `$ git cherry-pick 7fc9e224`
