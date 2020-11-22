@@ -1,0 +1,5 @@
+*.pdf
+.dockerignore
+Dockerfile
+docker-compose.yml
+ghost-cms
