@@ -3,3 +3,7 @@
 Dockerfile
 docker-compose.yml
 ghost-cms
+*.pyc
+*.cache
+__pycache__
+*.pytest_cache

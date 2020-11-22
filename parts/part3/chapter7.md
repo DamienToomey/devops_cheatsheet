@@ -1,4 +1,4 @@
-### Chapter6 – Get live updates on app during development and in production
+### Chapter7 – Get live updates on app during development and in production
 
 - Reference: [Monitorez votre application](https://openclassrooms.com/fr/courses/2035736-mettez-en-place-lintegration-et-la-livraison-continues-avec-la-demarche-devops/6183162-monitorez-votre-application)
 
