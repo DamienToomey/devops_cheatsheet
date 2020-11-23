@@ -4,6 +4,7 @@ stages:
 # Tests
 pytest:
   stage: test
+  image: docker:stable
   script:
     - apk add py-pip python3-dev
     - pip3 install pytest-cov
