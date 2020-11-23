@@ -5,6 +5,7 @@ stages:
 pytest:
   stage: test
   script:
+    - apk add py-pip python3-dev
     - pip3 install pytest-cov
     - cd python_app
     - python3 -m pytest --cov-report xml:pytest_cov/coverage-reports/coverage-0.xml --junitxml=pytest_cov/xunit-reports/xunit-result-0.xml --cov=.

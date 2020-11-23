@@ -20,3 +20,5 @@ CI pipeline will be run on GitLab.
 - Under `Visibility level`, choose `Public` radio button
 
 #### Create `.gitlab-ci.yml`
+
+Update GitHub mirror on GitLab: `devops_cheatsheet > Settings > Repository > Mirroring repositories > Expand > At the bottom of this section, click on the symbol for Update`
