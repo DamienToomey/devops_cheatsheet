@@ -1,24 +1,30 @@
-### Chapter8 – Build small python app and create CI pipeline with GitLab CI
+### Chapter8 – Build a small Python app and create a CI pipeline with GitLab CI
 
-The Python code to be processed in pipeline is located in folder `python_app`.
+#### Create project on GitLab
 
-#### Use GitLab only for CI purposes
+https://gitlab.com/DamienToomey/devops_cheatsheet_ci
 
-Code is on GitHub.
+The Python code to be processed in the CI pipeline is located in the folder named `python_app`.
 
-CI pipeline will be run on GitLab.
+Let's use SonarCloud to measure code quality.
 
-- Go to https://gitlab.com
-- Sign in / Sign up
-- Click on `New project`
-- Click on `Run CI/CD for external repository`
-- Click on `Repo by URL`
-- Paste `https://github.com/DamienToomey/devops_cheatsheet.git` into textbox
-- Enter `Username (optional)`
-- Enter `Password (optional)`
-- Enter `Project name`: `devops_cheatsheet`
-- Under `Visibility level`, choose `Public` radio button
+#### SonarCloud
 
-#### Create `.gitlab-ci.yml`
+SonarQube = on premise option of SonarCloud.
 
-Update GitHub mirror on GitLab: `devops_cheatsheet > Settings > Repository > Mirroring repositories > Expand > At the bottom of this section, click on the symbol for Update`
+- Go to https://sonarcloud.io
+- Sign in with GitLab
+- Click on `Import my personal GitLab group`
+- Follow instructions
+
+#### Summary
+
+In order to create the CI pipeline, we had to modify information in:
+- the GitLab web interface (create project and add SonarCloud variables)
+- create `gitlab-ci.yml`
+- create `sonar-project.properties`
+
+#### References
+
+- [Create SonarCloud project](https://sonarcloud.io/documentation/integrations/gitlab)
+- [Set up CI/CD pipeline for SonarCloud](https://sonarcloud.io/project/configuration?analysisMode=GitLabPipeline&id=DamienToomey_devops_cheatsheet_ci)
