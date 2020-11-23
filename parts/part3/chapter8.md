@@ -35,6 +35,29 @@ In order to create the CI pipeline, we had to modify information in:
 - create `gitlab-ci.yml`
 - create `sonar-project.properties`
 
+#### Push code
+
+Pipeline:
+- Tests
+- Quality
+- Package (push Docker image of app on GitLab registry)
+
+#### Retrieve image and run Docker image locally
+
+```
+sudo docker login
+# enter GitLab credentials
+sudo docker system prune --all
+sudo docker run registry.gitlab.com/damientoomey/devops_cheatsheet_ci:my_tag
+```
+
+Output:
+
+```
+add_one_to_input 6
+subtract_one_to_input 4
+```
+
 #### References
 
 - [Create SonarCloud project](https://sonarcloud.io/documentation/integrations/gitlab)
