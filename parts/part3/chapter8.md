@@ -42,7 +42,9 @@ Pipeline:
 - Quality
 - Package (push Docker image of app on GitLab registry)
 
-#### Retrieve image and run Docker image locally
+Go to `devops_cheatsheet > Packages & Registries > Container Registry` to Docker image in GitLab registry.
+
+#### Retrieve image from GitLab registry and run Docker image locally
 
 ```
 sudo docker login
