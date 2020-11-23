@@ -17,6 +17,17 @@ SonarQube = on premise option of SonarCloud.
 - Click on `Import my personal GitLab group`
 - Follow instructions
 
+#### WARNING: Block merge in GitLab if job fails in pipeline
+
+- Reference: [Have a look at How to block the merge of Merge Requests when SonarQube Quality Gate is failed, with GitLab](https://community.sonarsource.com/t/how-to-block-the-merge-of-merge-requests-when-sonarqube-quality-gate-is-failed-with-gitlab/19530)
+
+####
+
+- Go to `devops_cheasheet_ci > Settings > General`
+- Scoll down to `Merge Settings`
+- Click on `Expand`
+- Select radio button `Pipelines must succeed`
+
 #### Summary
 
 In order to create the CI pipeline, we had to modify information in:
