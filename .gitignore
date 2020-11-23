@@ -7,3 +7,6 @@ ghost-cms
 *.cache
 __pycache__
 *.pytest_cache
+*.coverage
+pytest_cov
+*.pytest_cache
