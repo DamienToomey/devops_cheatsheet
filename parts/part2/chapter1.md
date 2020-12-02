@@ -18,4 +18,4 @@ A Docker container is immutable. In order to modify the configuration of a conta
 
 - Docker Community Edition (Linux only) (**free**) (also called docker-ce)
 - Docker Desktop (Mac or Windows) (**free**)
-- Docker Enterprise (Linux seulement)
+- Docker Enterprise (Linux only)
