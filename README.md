@@ -57,7 +57,7 @@ This part is heavily based on the following OpenClassrooms course:
 
 #### Part 3 – Gitlab CI/CD
 
-- [Chapter1](parts/part3/chapter15.md) – Introduction to DevOps
+- [Chapter1](parts/part3/chapter1.md) – Introduction to DevOps
 - [Chapter2](parts/part3/chapter2.md) – What is Continuous Integration (CI) and Continuous Delivery (CD)?
 - [Chapter3](parts/part3/chapter3.md) – Configure a CI pipeline with Gitlab CI
 - [Chapter4](parts/part3/chapter4.md) – Codify your infrastructure
