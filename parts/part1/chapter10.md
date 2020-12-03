@@ -16,6 +16,8 @@ Let's focus on **GitFlow**:
 
 ![](../../images/gitflow/gitflow.png)
 
+- Image reference: [Travaillez en équipe en utilisant un workflow](https://openclassrooms.com/fr/courses/5641721-utilisez-git-et-github-pour-vos-projets-de-developpement/6113111-travaillez-en-equipe-en-utilisant-un-workflow) (and adapted by myself)
+
 #### Branch description
 
 - **master**: code for production
