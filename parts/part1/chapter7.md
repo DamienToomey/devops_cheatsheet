@@ -72,6 +72,9 @@ One can use an interactive rebase to delete commits, change the order of commits
 | ![](../../images/interactive_rebase/interactive_rebase_reorder1.png) | ![](../../images/interactive_rebase/interactive_rebase_squash1.png) |
 | ![](../../images/interactive_rebase/interactive_rebase_reorder2.png) | ![](../../images/interactive_rebase/interactive_rebase_squash2.png) |
 
+- Image reference: [Modifiez vos branches avec Rebase](https://openclassrooms.com/fr/courses/5641721-utilisez-git-et-github-pour-vos-projets-de-developpement/6113081-modifiez-vos-branches-avec-rebase)
+
+
 #### Interactive rebase options
 
 ```
