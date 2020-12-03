@@ -1,5 +1,3 @@
-## Continuous Integration (CI)
-
 ### Chapter3 – Configure a CI pipeline with Gitlab CI
 
 - Reference: [Intégrez votre code en continu](https://openclassrooms.com/fr/courses/2035736-mettez-en-place-lintegration-et-la-livraison-continues-avec-la-demarche-devops/6182908-integrez-votre-code-en-continu)
