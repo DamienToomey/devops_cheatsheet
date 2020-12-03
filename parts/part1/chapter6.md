@@ -8,7 +8,7 @@
 - `git reset` will revert to the previous state without creating a new commit
 - `git revert` will revert to the previous state  by creating a new commit
 
-![](../../images/revert_reset.jpg)
+![](../../images/reset_revert/reset_revert.jpg)
 
 - Image reference: [Utilisez Git reset](https://openclassrooms.com/fr/courses/5641721-utilisez-git-et-github-pour-vos-projets-de-developpement/6113051-utilisez-git-reset)
 

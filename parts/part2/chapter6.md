@@ -6,7 +6,7 @@ Docker Compose allows you to describe in a YAML (.yml or .yaml) file, several co
 
 You can use Docker Compose to ochestrate the deployment of several containers and duplicate environments.
 
-![](../../images/chapter13/docker_compose.png)
+![](../../images/docker_compose/docker_compose.png)
 
 #### Install Docker Compose for Linux
 

@@ -1,7 +1,7 @@
 ### Chapter1 – Overview
 
 <p align="center">
-    <img src="../../images/plantuml/chapter1/overview.svg" alt=""/>
+    <img src="../../images/overview/overview.svg" alt=""/>
 <p>
 
 - Image reference: [Corrigez vos erreurs sur votre dépôt local](https://openclassrooms.com/fr/courses/5641721-utilisez-git-et-github-pour-vos-projets-de-developpement/6112481-corrigez-vos-erreurs-sur-votre-depot-local)
@@ -13,7 +13,7 @@ The `HEAD` is a pointer to the current position in your git working directory. B
 - Tilde: `HEAD~` is shorthand for `HEAD~1`
 - Caret: `HEAD^` is shorthand for `HEAD^1`
 
-![](../../images/git-caret-and-tilde.svg)
+![](../../images/overview/git-caret-and-tilde.svg)
 
 - Image reference: [Git caret and tilde | Paul Boxley](http://www.paulboxley.com/blog/2011/06/git-caret-and-tilde)
 - Stackoverflow: [What's the difference between HEAD^ and HEAD~ in Git?](https://stackoverflow.com/questions/2221658/whats-the-difference-between-head-and-head-in-git)

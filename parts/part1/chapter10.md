@@ -14,7 +14,7 @@ A git workflow is a recommendation on how to use git. There exists several git w
 
 Let's focus on **GitFlow**:
 
-![](../../images/chapter10/gitflow.png)
+![](../../images/gitflow/gitflow.png)
 
 #### Branch description
 

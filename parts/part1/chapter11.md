@@ -19,7 +19,7 @@ Unit test during the Continuous Integration phase can not catch all the bugs and
 **Continuous Deployment**: The deployment or release of code as soon as it's ready. Continuous Deployment requires Continuous Integration and Continuous Delivery otherwise the code quality won't be guarantee in a release.
 "
 
-![](../../images/chapter11/ci_cd.png)
+![](../../images/ci_cd/ci_cd.png)
 
 - Image reference: [Continuous integration vs. continuous delivery vs. continuous deployment ](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
 
@@ -39,9 +39,9 @@ Find other CI tools on the [Gihub marketplace](https://github.com/marketplace).
 
 #### Add badges to README
 
-![](../../images/chapter11/failing.svg)
-![](../../images/chapter11/maintainability-C.svg)
-![](../../images/chapter11/coverage.svg)
+![](../../images/ci_cd/failing.svg)
+![](../../images/ci_cd/maintainability-C.svg)
+![](../../images/ci_cd/coverage.svg)
 
 - Image reference: [README-badges.md](https://gist.github.com/tterb/982ae14a9307b80117dbf49f624ce0e8)
 

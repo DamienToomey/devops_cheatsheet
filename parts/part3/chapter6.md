@@ -1,4 +1,4 @@
-### Chapter6 – Monitor your app on the staging environment Prometheus
+### Chapter6 – Monitor your app on the staging environment with Prometheus
 
 - Reference: [Monitorez votre application](https://openclassrooms.com/fr/courses/2035736-mettez-en-place-lintegration-et-la-livraison-continues-avec-la-demarche-devops/6183162-monitorez-votre-application)
 

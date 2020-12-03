@@ -6,11 +6,11 @@ It has the following tree structure:
 
 ```
 .
-├── chapters     <-- contains the different chapters of the cheatsheet in markdown
+├── .gitignore   <-- make git ignore certain files
 ├── images       <-- contains images used in the cheatsheet 
-├── Makefile     <-- generate svg images from plantuml and html
+├── parts        <-- contains the different parts and chapters of the cheatsheet in markdown
 ├── README.md    <-- file you are reading    
-└── temp.txt     <-- empty text file used in examples
+└── temp.txt     <-- empty text file used in the examples
 ```
 
 Every example assumes a clean initial repository in both local and remote repositories, i.e.
@@ -57,13 +57,13 @@ This part is heavily based on the following OpenClassrooms course:
 
 #### Part 3 – Gitlab CI/CD
 
-- [Chapter1](parts/part3/chapter15.md) – Introcution to DevOps
+- [Chapter1](parts/part3/chapter15.md) – Introduction to DevOps
 - [Chapter2](parts/part3/chapter2.md) – What is Continuous Integration (CI) and Continuous Delivery (CD)?
 - [Chapter3](parts/part3/chapter3.md) – Configure a CI pipeline with Gitlab CI
 - [Chapter4](parts/part3/chapter4.md) – Codify your infrastructure
 - [Chapter5](parts/part3/chapter5.md) – Deploy Docker images in [Play with Docker](https://labs.play-with-docker.com)
-- [Chapter6](parts/part3/chapter6.md) – Monitor your app on the staging environment Prometheus
-- [Chapter7](parts/part3/chapter7.md) – Get live updates on app during development and in production
+- [Chapter6](parts/part3/chapter6.md) – Monitor your app on the staging environment with Prometheus
+- [Chapter7](parts/part3/chapter7.md) – Get live updates of your app during development and in production
 
 ##### Reference
 
