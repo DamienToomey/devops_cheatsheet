@@ -13,7 +13,7 @@ Let's consider that you have two github accounts:
 
 #### Via `SSH` (strongly recommended)
 
-#### Account 1: create a private and public SSH key on your PC
+##### Account 1: create a private and public SSH key on your PC
 
 ```bash
 $ ssh-keygen -t rsa -b 4096 -C "username.account1@gmail.com"
@@ -23,9 +23,9 @@ $ ssh-keygen -t rsa -b 4096 -C "username.account1@gmail.com"
 $ cat ~/.ssh/id_rsa.pub
 ```
 
-#### Account 1: Add the public SSH key to GitHub
+##### Account 1: Add the public SSH key to GitHub
 
-- copy the output of the previous command
+- copy the output of the cat command
 - go to https://github.com/settings/ssh/new
 - click on new SSH key
 - Title: My PC
@@ -43,14 +43,14 @@ $ cat ~/.ssh/id_rsa_account2.pub
 
 "Tip: On most systems the default private keys (~/.ssh/id_rsa and ~/.ssh/identity) are automatically added to the SSH authentication agent. You shouldn't need to run ssh-add path/to/key unless you override the file name when you generate a key." ([GitHub - Error: Permission denied (publickey)](https://docs.github.com/en/authentication/troubleshooting-ssh/error-permission-denied-publickey))
 
-For this second SSH key, we have changed the default filename in order not overwrite the first SSH key we created.
+For this second SSH key, we have changed the default file name in order not to overwrite the first SSH key we created so lets add this new private key to the SSH authentication agent.
 
 ```bash
 $ ssh-add ~/.ssh/id_rsa_account2
 # Output: Identity added: ...
 ```
 
-#### Account 2: Add the public SSH key to GitHub
+##### Account 2: Add the public SSH key to GitHub
 
 Do as previously.
 
@@ -78,25 +78,32 @@ Host github-account2
    IdentitiesOnly yes
 ```
 
-##### Clone
+##### Clone your GitHub repository
+
+**Clone with account 1**
+
+- go to your project homepage on GtiHub
+- click `Code`
+- click `SSH`
+- copy the URL
+
+Let's say that the URL you copied is `git@github.com:UsernameAccount1/my-project-name.git`
+
+```bash
+$ git clone git@github.com:UsernameAccount1/my-project-name.git
+```
+
+**Clone with account 2**
 
 - go to your project homepage on GtiHub
 - click `Code`
 - click `SSH`
 - copy the URL 
 
-Let's say that the URL you copied is `git@github.com:UsernameAccount1/my-project-name.git`
-
-**Clone with account 1**
+Let's say that the URL you copied is `git@github.com:UsernameAccount2/my-other-project-name.git`
 
 ```bash
-git clone git@github.com:UsernameAccount1/my-project-name.git
-```
-
-**Clone with account 2**
-
-```bash
-git clone git@github-account2:UsernameAccount2/my-project-name.git
+$ git clone git@github-account2:UsernameAccount2/my-other-project-name.git
 
 Notice that `github-account2` replaces `github.com` in the url.
 
@@ -118,7 +125,7 @@ The `config` contains
 	bare = false
 	logallrefupdates = true
 [remote "origin"]
-	url = git@github-account2:UsernameAccount2/my-project-name.git
+	url = git@github-account2:UsernameAccount2/my-other-project-name.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "main"]
 	remote = origin
