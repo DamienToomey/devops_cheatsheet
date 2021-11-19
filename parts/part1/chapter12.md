@@ -1,4 +1,4 @@
-### Chapter12 – Multiple GitHub Accounts
+### Chapter12 – Multiple GitHub Accounts - SSH vs HTTPS
 
 - References:
     - [Create SSH Key](https://www.inmotionhosting.com/support/server/ssh/how-to-add-ssh-keys-to-your-github-account)
