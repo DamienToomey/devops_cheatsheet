@@ -104,15 +104,12 @@ Let's say that the URL you copied is `git@github.com:UsernameAccount2/my-other-p
 
 ```bash
 $ git clone git@github-account2:UsernameAccount2/my-other-project-name.git
-
-Notice that `github-account2` replaces `github.com` in the url.
-
 ```
 
-- `cd` inside your project
+In the snippet above, notice that we have replaced `github.com` with `github-account2` in the url.
 
 ```bash
-$ cd .git
+$ cd my-other-project-name/.git
 $ gedit config
 ```
 
@@ -134,7 +131,7 @@ The `config` contains
 
 In the snippet above, notice that the `url`contains the `github-account2` alias.
 
-You now push and pull in your repository and `~/.ssh/config` will take care of providing the ssh key for the correct account.
+You can now push and pull from your repository and `~/.ssh/config` will take care of providing the ssh key for the correct GitHub account.
 
 #### Via `HTTPS`
 
@@ -159,10 +156,12 @@ $ git clone https://github.com/DamienToomey/my-project-name.git
 
 If you decide to clone your repository via `HTTPS`, `git` will ask you to enter your username and password ([Personal Access Token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token)) each time you `clone`, `pull`, `push`. It is possible to cache your credentials but you might run into issues if you have two GitHub accounts on your computer (e.g. personal and professional accounts).
 
-For example, in VS Code, if you have cached your credentials for one account, you will not be prompted for your credentials when you want to push some changes with your second account. To overcome this, in VS Code, do 
+For example, in VS Code, if you have cached your credentials for one account, you will not be prompted for your credentials when you want to `pull`/`push` some changes with your second account. To overcome this, in VS Code, do 
 
 ```bash
 File > Preferences > Settings > Type `Git` > Scroll down and look for Git: Enabled > Uncheck the box
 ```
 
-VS Code will now prompt for username and password.
+Do `git pull`
+
+VS Code now prompts you for your username and password.
