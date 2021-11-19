@@ -33,7 +33,7 @@ Every example assumes a clean initial repository in both local and remote reposi
 - [Chapter9](parts/part1/chapter9.md) – Detect a bug with `git bisect`
 - [Chapter10](parts/part1/chapter10.md) – Git workflow 
 - [Chapter11](parts/part1/chapter11.md) – Continuous integration (CI) vs Continuous Delivery vs Continuous Deployment
-- [Chapter11](parts/part1/chapter12.md) – Multiple GitHub Accounts - SSH vs HTTPS
+- [Chapter12](parts/part1/chapter12.md) – Multiple GitHub Accounts - SSH vs HTTPS
 
 ##### Reference
 
