@@ -34,6 +34,7 @@ Every example assumes a clean initial repository in both local and remote reposi
 - [Chapter10](parts/part1/chapter10.md) – Git workflow 
 - [Chapter11](parts/part1/chapter11.md) – Continuous integration (CI) vs Continuous Delivery vs Continuous Deployment
 - [Chapter12](parts/part1/chapter12.md) – Multiple GitHub Accounts - SSH vs HTTPS
+- Chapter13 - [13 Advanced (but useful) Git Techniques and Shortcuts](https://www.youtube.com/watch?v=ecK3EnyGD8o)
 
 ##### Reference
 
