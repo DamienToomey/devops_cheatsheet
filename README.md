@@ -51,6 +51,7 @@ This part is heavily based on the following OpenClassrooms course:
 - [Chapter6](parts/part2/chapter6.md) – Docker Compose
 - [Chapter7](parts/part2/chapter7.md) – Start a Docker Compose stack
 - [Chapter8](parts/part2/chapter8.md) – Start another Docker Compose stack
+- [Chapter9](parts/part2/chapter9.md) – Inspect Docker Images and Docker Containers
 
 ##### Reference
 
