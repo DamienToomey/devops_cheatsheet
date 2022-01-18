@@ -1,4 +1,4 @@
-### Chapter9 – Inspect docker images and docker containers
+### Chapter9 – Inspect Docker Images and Docker Containers
 
 #### Build Dockerfile to obtain docker image
 
