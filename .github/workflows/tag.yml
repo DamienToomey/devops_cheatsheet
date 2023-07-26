@@ -17,8 +17,10 @@ jobs:
       - name: Determine version type
         # id: determine_version
         run: |
-          # # Get the tag name from the ref, e.g., "refs/tags/v1.0.1"
-          # TAG=${GITHUB_REF#refs/tags/}
+          # Get the tag name from the ref, e.g., "refs/tags/v1.0.1"
+          TAG=${GITHUB_REF#refs/tags/}
+
+          echo $TAG
 
           # # Parse the version number from the tag
           # IFS='.' read -ra VERSION <<< "$TAG"
