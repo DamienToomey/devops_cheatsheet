@@ -1,0 +1,37 @@
+name: hello1
+
+# on:
+#   push:
+#     tags:
+#       - "v*.*.*"
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  hello2:
+    name: hello3
+    runs-on: ubuntu-latest
+    steps:
+      - name: Determine version type
+        # id: determine_version
+        run: |
+          # # Get the tag name from the ref, e.g., "refs/tags/v1.0.1"
+          # TAG=${GITHUB_REF#refs/tags/}
+
+          # # Parse the version number from the tag
+          # IFS='.' read -ra VERSION <<< "$TAG"
+
+          # # Determine the version type based on the tag name
+          # if [[ "${VERSION[2]}" -gt 0 ]]; then
+          #   echo "Version Type: patch"
+          # elif [[ "${VERSION[1]}" -gt 0 ]]; then
+          #   echo "Version Type: minor"
+          # else
+          #   echo "Version Type: major"
+          # fi
+
+          echo "hello"
+          # Output the version type as an output variable
+          # echo "::set-output name=version_type::$(echo $VERSION_TYPE)"
