@@ -34,8 +34,9 @@ $ cat ~/.ssh/id_rsa.pub
 ##### Account 2: Create a second ssh key for a second GitHub Account
 
 ```bash
+$ cd ~/.ssh
 $ ssh-keygen -t rsa -b 4096 -C "username.account2@gmail.com"
-# type ~/.ssh/id_rsa_account2
+# type id_rsa_account2
 # click enter
 # click enter
 $ cat ~/.ssh/id_rsa_account2.pub
